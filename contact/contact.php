@@ -4,7 +4,7 @@ require('recaptcha-master/src/autoload.php');
 
 // configure
 $from = 'Contact form <penarthfruitveg.co.uk>';
-$sendTo = 'Contact form <hello@penarthfruitveg.co.uk>';
+$sendTo = 'Contact form <Windsorfruitstores@virginmedia.com>';
 $subject = 'New message from Windsor Fruit Stores';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Contact form successfully submitted. Thank you, We will get back to you soon!';
