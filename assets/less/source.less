@@ -1,0 +1,542 @@
+/*
+ * Website Name - Windour Fruit
+ * Date - 4/10/17
+ * Designed by Michael Owens / Dragon Info Tech
+
+ * Custom Styles
+ * website colors:#FF0000 #0000FF ;
+ */
+
+/* General */
+/*margin big to small - 5, 4, 3, 2, 1*/
+
+
+.gap5{
+  margin:20px 0;
+}
+
+.gap4{
+  margin:40px 0;
+}
+
+.gap3{
+  margin:60px 0;
+}
+
+.gap2{
+  margin:80px 0;
+}
+
+.gap1{
+  margin:100px 0;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 991px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0;
+  padding-top:10px;
+}
+
+h1{
+  font-size: 42px;
+}
+
+@primary-colour: #007b88;
+@txtWhite: #fff;
+
+a{
+  color:#E71C37;
+}
+
+a:visited{
+  color:#E71C37;
+}
+
+/* mouse over link */
+a:hover {
+  color: #000000;
+}
+
+a:active {
+  color: #000000;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+       margin-bottom: 0;
+    }
+}
+
+//navbar bg change
+.navbar-inverse {
+  background-image: linear-gradient(to bottom,#007B88 0,#007B88 100%);
+}
+
+//navbar item colour change
+.navbar-inverse .navbar-nav > li > a {
+  color: @txtWhite;
+
+  &:hover {
+    color: darken(@txtWhite, 15%);
+  }
+}
+//social buttons
+.social-btn a{
+  text-decoration: none;
+  padding-top:5px;
+  color:#fff;
+
+  &:hover{
+    color:#000;
+  }
+}
+
+footer .social-btn a{
+  text-decoration: none;
+  padding-top:5px;
+  color:@primary-colour;
+
+  &:hover{
+    color: darken(@primary-colour, 10%);
+  }
+}
+
+//center center content
+.center-relative{
+  position: relative;
+}
+
+.center-absolute{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+//overlay colour
+.dark-bg-overlay{
+background-color: rgba(87, 87, 87, 0.6);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.text-bg-colour{
+  width:145px;
+  height:145px;
+  background-color:@primary-colour;
+  border-radius: 50%;
+  border: 3px solid #E6E6D4;
+  //padding-top:40px;
+  //padding-left: 15px;
+}
+
+
+//removes padding from cols
+[class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+//adds border to images on frontpage
+.intro1, .intro2, .intro3{
+  border:3px solid #E6E6D4;
+}
+
+//top image
+.banner{
+  height:400px;
+  color:#fff;
+}
+
+.inline{
+  display: inline;
+}
+
+.banner__content h1{
+  font-size: 62px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+}
+
+
+//HOME
+//.intro{
+//  color:@primary-colour;
+//}
+
+.intro1{
+  background-color:#f3f3eb;
+}
+
+.intro1--bg-color{
+  background-color: @primary-colour;
+}
+
+.intro1{
+  height:280px;
+  position: relative;
+  color:@primary-colour;
+}
+
+.intro1__content{
+  padding: 10px;
+  right:0;
+  position: absolute;
+}
+
+.intro1__image{
+  position: absolute;
+  //bottom:10px;
+  //left:50%;
+
+}
+
+.intro1__about{
+  padding: 10px;
+  bottom: 10px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.intro1__about .contact-email {
+font-size: 12px !important;
+}
+
+.intro1--text-color{
+  color:@txtWhite;
+}
+
+.intro1--active:hover{
+  background-color: rgba(231, 230, 214, 1);
+}
+
+.intro2{
+  background-color:#f3f3eb;
+}
+
+.intro2-bg1{
+  background: url("/dist/assets/img/boxes.jpg") no-repeat center center;
+  background-size: cover;
+  height: 560px;
+}
+
+.intro2-bg2{
+  background: url("/dist/assets/img/organic-srawberry.jpg") no-repeat center center;
+  background-size: cover;
+  height: 280px;
+}
+
+.text-bg-colour--bg-colour{
+  background-color:@txtWhite;
+}
+
+.intro2--text-color-primary{
+  color:@primary-colour;
+}
+
+.intro2--active:hover{
+  background-color: rgba(231, 230, 214, 1);
+}
+
+.intro2-bg3{
+  height: 280px;
+}
+
+.and-char {
+  position: absolute;
+  left: 48%;
+  top: 70%;
+  font-size:48px;
+  color:@primary-colour;
+}
+
+.intro2-bg4{
+  background: url("/dist/assets/img/oranges.jpg") no-repeat center center;
+  background-size: cover;
+  height: 280px;
+}
+
+.intro2--text-color{
+  color:@txtWhite;
+}
+
+.intro3{
+  color:@primary-colour;
+  background-color:#f3f3eb;
+  position: relative;
+}
+
+.intro3--text-color{
+  color:@txtWhite;
+}
+
+.intro3-bg-1{
+  background: url("/dist/assets/img/catering.jpg") no-repeat center center;
+  background-size: cover;
+  height: 280px;
+}
+
+.intro3-bg-2{
+  background: url("/dist/assets/img/wfs-gallery.png") no-repeat center center;
+  background-size: cover;
+  height: 560px;
+}
+
+.intro3__content{
+  padding: 10px;
+  right:0;
+  position: absolute;
+}
+
+
+
+//ABOUT
+
+.banner--bg-about{
+  background: url("/dist/assets/img/about-header2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.promoUnit__media-about{
+  background: url("/dist/assets/img/about-side.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+//BOXES
+.banner--bg-box{
+  background: url("/dist/assets/img/boxes-header.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.promoUnit__media-boxes{
+  background: url("/dist/assets/img/boxes-side.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+//SHOP & DROP
+
+.banner--bg-shop-drop{
+  background: url("/dist/assets/img/shopdrop-header.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.promoUnit__shop{
+  background: url("/dist/assets/img/shopdrop-side.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+//ORGANIC
+.banner--bg-organic{
+  background: url("/dist/assets/img/organic-header.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+
+//drop down text
+.foo-js1{
+  font-size: 20px;
+}
+
+//drop down btn
+.promoUnit-text .fa {
+  color:@txtWhite;
+
+  &:hover{
+    color:darken(@txtWhite, 20%);
+  }
+}
+
+//CATERING
+.banner--bg-catering{
+  background: url("/dist/assets/img/catering-header.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.promoUnit{
+  background-color:#007B88;
+  height: 600px;
+  color:#fff;
+}
+
+.promoUnit__content{
+  padding: 20px;
+}
+
+//adds padding to bottom of text
+.promoUnit-text p{
+  margin:0 0 30px;
+}
+
+.promoUnit__media-catering{
+  background: url("/dist/assets/img/catering-side.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+//GALLERY
+.gallery-image{
+  position: fixed;
+  background: url("/dist/assets/img/8.jpg") no-repeat center center;
+  background-size: cover;
+width: 50%;
+  height: 100vh;
+
+}
+
+.gallery-image__content-heading{
+  color:#fff;
+}
+
+.grid {
+  background: #EEE;
+  margin: 0 auto;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width:230px;
+  float: left;
+  /* vertical gutter */
+  margin-bottom: 10px;
+  /*  margin-left:10px;
+    margin-right: 10px;*/
+
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 2px;
+}
+
+.grid-item p{
+  position: absolute;
+  text-align: center;
+  top:35%;
+
+}
+
+/*text box */
+.box{
+  background: #D26;  width:350px;
+
+  margin-bottom: 20px;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 2px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  .grid-item{
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid {
+    margin: 0;
+  }
+}
+
+.grid-item--width2 { width: 340px; }
+.grid-item--width3 { width: 520px; }
+.grid-item--width4 { width: 780px; }
+
+.grid-item--height2 { height: 250px; }
+.grid-item--height3 { height: 310px; }
+.grid-item--height4 { height: 410px; }
+
+
+/*footer*/
+.footer{
+  background-color: #eee;
+  margin-top:20px;
+}
+
+.footer__heading footer{
+  padding: 50px;
+
+  h2 {
+    font-size: 30px;
+    color: #000;
+  }
+}
+
+/*COPRRIGHT*/
+.copyright{
+  background-color:#000;
+}
+
+.copyright{
+  color:#e71c37;
+  padding: 5px;
+}
+
+.copyright a:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+.copyright address{
+  margin-bottom: 0;
+}
+
+.intro3,.intro2,.intro1  {
+  text-align: center;
+  border-bottom: 1px #ebebeb solid;
+  opacity: 0;
+  //transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+.intro3.fade-in, .intro2.fade-in, .intro1.fade-in {
+  opacity: 1;
+  //transform: translateY(0);
+}
+
+
+.virus{
+padding:40px;
+background-color:#E9E0D6;
+}
+
+.modal{
+    top: 25%;
+}
