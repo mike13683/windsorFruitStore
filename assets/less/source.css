@@ -202,8 +202,20 @@ footer .social-btn a:hover {
   font-size: 48px;
   color: #007b88;
 }
-.intro2-bg4 {
+/*
+.intro2-bg4{
   background: url("/dist/assets/img/oranges.jpg") no-repeat center center;
+  background-size: cover;
+  height: 280px;
+}
+*/
+.intro2-bg3 {
+  background: url("/dist/assets/img/xmas1.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 280px;
+}
+.intro2-bg4 {
+  background: url("/dist/assets/img/xmas2.jpeg") no-repeat center center;
   background-size: cover;
   height: 280px;
 }
@@ -376,7 +388,7 @@ footer .social-btn a:hover {
   font-size: 30px;
   color: #000;
 }
-/*COPRRIGHT*/
+/*COPYRIGHT*/
 .copyright {
   background-color: #000;
 }
