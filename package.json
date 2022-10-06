@@ -5,7 +5,7 @@
   "main": "index.html",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-bootlint": "^0.10.2",
+    "grunt-bootlint": "^1.1.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-cssmin": "^2.2.1",
